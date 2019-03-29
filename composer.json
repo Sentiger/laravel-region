@@ -1,0 +1,26 @@
+{
+    "name": "yiche/region",
+    "description": "地区模块",
+    "authors": [
+        {
+            "name": "shiwh",
+            "email": "shi_wenhu@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Yiche\\Region\\":"scrs/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yiche\\Region\\RegionSeviceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
