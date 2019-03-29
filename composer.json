@@ -11,7 +11,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Yiche\\Region\\":"scrs/"
+            "Yiche\\Region\\":"scr/"
         }
     },
     "extra": {
