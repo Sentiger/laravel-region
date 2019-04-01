@@ -1,17 +1,17 @@
 {
-    "name": "yiche/region",
-    "description": "地区模块",
-    "authors": [
-        {
-            "name": "shiwh",
-            "email": "shi_wenhu@qq.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "Yiche\\Region\\":"scr/"
-        }
+  "name": "yiche/region",
+  "description": "地区模块",
+  "authors": [
+    {
+      "name": "shiwh",
+      "email": "shi_wenhu@qq.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Yiche\\Region\\": "src/"
+    }
+  }
 }
