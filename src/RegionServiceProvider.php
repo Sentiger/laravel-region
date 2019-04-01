@@ -14,6 +14,11 @@ class RegionServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        // 加载路由
+        $this->loadRoutesFrom(__DIR__ . '/routes.php');
+        $this->commands([
+            RegionInstall::class
+        ]);
     }
 
     /**
@@ -24,5 +29,8 @@ class RegionServiceProvider extends ServiceProvider
     public function register()
     {
         //
+        $this->app->singleton('ycRegion', function () {
+            return new Region();
+        });
     }
 }
