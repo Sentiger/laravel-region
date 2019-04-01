@@ -13,12 +13,5 @@
         "psr-4": {
             "Yiche\\Region\\":"scr/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Yiche\\Region\\RegionSeviceProvider"
-            ]
-        }
     }
 }
