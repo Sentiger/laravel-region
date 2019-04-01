@@ -32,4 +32,9 @@ class RegionSeviceProvider extends ServiceProvider
             return new Region();
         });
     }
+
+    public function provides()
+    {
+        return [Region::class, 'ycRegion'];
+    }
 }
